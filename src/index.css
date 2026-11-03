@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F6F3EB;
+    color: #1A1A1A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-kufi {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+/* Kindle Paperwhite / E-Ink Screen Background */
+.kindle-screen {
+  background-color: #F6F3EB;
+  background-image: 
+    radial-gradient(rgba(36, 36, 36, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Kindle Book Page Card */
+.kindle-card {
+  background-color: #FAF8F5;
+  border: 1px solid #DCD5C6;
+  box-shadow: 0 1px 3px rgba(36, 36, 36, 0.04), 0 1px 2px rgba(36, 36, 36, 0.02);
+  transition: all 0.2s ease;
+}
+
+.kindle-card:hover {
+  border-color: #B8AF9C;
+  box-shadow: 0 4px 12px rgba(36, 36, 36, 0.06);
+}
+
+/* Kindle Tactile Buttons */
+.kindle-btn-primary {
+  background-color: #242424;
+  color: #F6F3EB;
+  border: 1px solid #141414;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.kindle-btn-primary:hover {
+  background-color: #0F0F0F;
+  border-color: #000000;
+}
+
+.kindle-btn-secondary {
+  background-color: #EDE7DC;
+  color: #1A1A1A;
+  border: 1px solid #CEC5B4;
+  box-shadow: 0 1px 2px rgba(36, 36, 36, 0.03);
+  transition: all 0.15s ease;
+}
+
+.kindle-btn-secondary:hover {
+  background-color: #E2DBD0;
+  border-color: #B8AF9C;
+}
+
+.kindle-btn-outline {
+  background-color: #FAF8F5;
+  color: #242424;
+  border: 1px solid #DCD5C6;
+  transition: all 0.15s ease;
+}
+
+.kindle-btn-outline:hover {
+  background-color: #EDE7DC;
+  border-color: #B8AF9C;
+}
+
+/* Kindle Highlight text effect */
+.kindle-highlight {
+  background-color: #EFE8DA;
+  border-bottom: 1.5px solid #C8BFAD;
+  padding: 0 2px;
+}
+
+/* Custom quiet scrollbar matching Kindle e-ink */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFEBE0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BDB5A4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8F8776;
+}

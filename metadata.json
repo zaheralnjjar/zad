@@ -1,0 +1,11 @@
+{
+  "name": "زاد الإمام والخطيب | دليل الكلمات الذكي بعد الصلوات",
+  "description": "برنامج ذكي ومتكامل لإمام المسجد يوفر 20 موضوعاً ومخططاً دعوياً موثقاً بالأحاديث الصحيحة قبل كل صلاة، مع ميزات الذكاء الاصطناعي، تسجيل وتدريب الإلقاء، ومواقيت الصلاة الدقيقة.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
